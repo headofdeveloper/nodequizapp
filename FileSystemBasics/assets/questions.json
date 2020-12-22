@@ -1,0 +1,13 @@
+{
+    "name" : "Space Quiz",
+    "questions" : [
+        "Do all planets rotate the same speed? > ",
+        "How many hours does Saturn have in a day? ? > ",
+        "What planet rotates around its axis the fastest? > "    
+    ],
+    "correctAnswers" : [
+        "No",
+        "11",
+        "Jupiter"
+    ]
+}
