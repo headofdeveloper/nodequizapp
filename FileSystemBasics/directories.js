@@ -1,5 +1,10 @@
 const fs = require("fs");
 
+fs.readdir("/", (err,data) => {
+    console.log(data);
+});
+
+/*
 fs.renameSync("./storage-files", "./storage");
 
 fs.rmdir("./storage", err => {
@@ -9,3 +14,4 @@ fs.rmdir("./storage", err => {
 
     console.log("./storage directory removed");
 });
+*/

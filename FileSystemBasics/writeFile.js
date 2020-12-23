@@ -18,3 +18,25 @@ fs.writeFile("./assets/notes.md",md.trim(), err => {
     console.log("File Saved");
 
 } );
+
+
+const jsonData = {
+    name : 'Mustafa'
+};
+
+//writes [object Object]
+fs.writeFile("sample.json", jsonData.toString(), err => {
+    if(err)
+    {
+        throw err;
+    }
+});
+
+//writes {"name":"Mustafa"}
+fs.writeFile("beautifulSample.json", JSON.stringify(jsonData), err => {
+    if(err)
+    {
+        throw err;
+    }
+});
+
